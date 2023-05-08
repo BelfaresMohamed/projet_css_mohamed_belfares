@@ -12316,3 +12316,14 @@ input {
 h1, .h1 {
   font-family: courgette;
 }
+
+.bg-footer {
+  background-image: url(../img/team_background.jpg);
+  height: auto;
+  width: 100%;
+  background-color: rgba(31, 30, 30, 0.8);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
