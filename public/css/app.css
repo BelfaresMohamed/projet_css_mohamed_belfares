@@ -12205,7 +12205,7 @@ body {
 .nav-tabs-elements .menu-table .col-6 {
   width: 40%;
   height: 20vh;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #d23f3f;
 }
 .nav-tabs-elements .menu-table .col-6 img {
   border-radius: 50%;
@@ -12220,7 +12220,7 @@ body {
 .nav-tabs-elements .menu-table .col-6 .price {
   width: 15%;
   color: #c42d40;
-  background-color: #fff;
+  background-color: #a79797;
 }
 
 @media (max-width: 426px) {
