@@ -12178,17 +12178,6 @@ body {
   background-size: cover;
   background-position: center;
 }
-.bg-image button {
-  border-radius: 20px;
-  padding: 10px 10px;
-}
-
-.section2 {
-  height: auto;
-  background-color: #fff;
-  margin-top: 30px;
-  width: 100%;
-}
 
 .nav-tabs-elements .element {
   font-family: courgette;
@@ -12201,7 +12190,7 @@ body {
 }
 .nav-tabs-elements .active {
   background-color: white !important;
-  border-right: 5px solid #7a3131;
+  border-right: 5px solid #fff;
 }
 .nav-tabs-elements .active i {
   color: red;
@@ -12216,7 +12205,7 @@ body {
 .nav-tabs-elements .menu-table .col-6 {
   width: 40%;
   height: 20vh;
-  border-bottom: 1px solid #8b3939;
+  border-bottom: 1px solid #fff;
 }
 .nav-tabs-elements .menu-table .col-6 img {
   border-radius: 50%;
@@ -12231,7 +12220,7 @@ body {
 .nav-tabs-elements .menu-table .col-6 .price {
   width: 15%;
   color: #c42d40;
-  background-color: #bcbcbc;
+  background-color: #fff;
 }
 
 @media (max-width: 426px) {
