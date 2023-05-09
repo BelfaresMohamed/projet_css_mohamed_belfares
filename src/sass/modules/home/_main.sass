@@ -8,3 +8,86 @@
     background-repeat: no-repeat
     background-size: cover
     background-position: center
+
+.nav-tabs-elements
+    .element
+        font-family: courgette
+        font-size: 3vw
+        color: $red
+        border-bottom: 1px solid #c08686
+        border-right: 1px solid #f67f7f
+        border-radius: 0
+        background-color: white
+    .active
+        background-color: white !important
+        border-right: 5px solid #fff
+        i
+            color: red
+        h5
+            color: black !important
+    .menu-table
+        width: 100%
+        height: fit-content
+        .col-6
+            width: 40%
+            height: 20vh
+            border-bottom: 1px solid #fff
+            img
+                border-radius: 50%
+                width: 15%
+            .col-text
+                font-size: 1vw
+                p
+                    width: 100%
+            .price
+                width: 15%
+                color: $red
+                background-color: #fff
+// SEction 3 
+//section 3 version mobile
+@media (max-width:426px)
+    .nav-tabs-elements
+        .element
+            font-family: courgette
+            font-size: 6vw
+            color: $red
+            border-bottom: 1px solid gray
+            border-right: 1px solid gray
+            border-radius: 0
+            background-color: white
+            width: 20vw
+            margin-bottom: 5vh !important
+            h6
+                font-size: 3vw!important
+        .active
+            background-color: white !important
+            border-right: 5px solid $red
+
+            i
+                color: $red
+            h5
+                color: black !important
+        .menu-table
+            width: 100%
+            height: fit-content
+            .col-6
+                width: 100%
+                height: 15vh
+                border-bottom: 1px solid $red
+                h3
+                    font-size: 13px
+                p
+                    margin-top: 0 !important
+
+                img
+                    border-radius: 50%
+                    width: 15%
+                .col-text
+                    width: 50%
+                    font-size: 10px
+                .price
+                    width: 10%
+                    color: $red
+                    background-color: $red
+                    font-size: 16px
+                    margin-right: 3vw
