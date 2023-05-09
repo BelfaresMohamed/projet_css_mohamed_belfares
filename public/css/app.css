@@ -12190,6 +12190,106 @@ body {
   width: 100%;
 }
 
+.nav-tabs-elements .element {
+  font-family: courgette;
+  font-size: 3vw;
+  color: #c42d40;
+  border-bottom: 1px solid #c08686;
+  border-right: 1px solid #f67f7f;
+  border-radius: 0;
+  background-color: white;
+}
+.nav-tabs-elements .active {
+  background-color: white !important;
+  border-right: 5px solid #7a3131;
+}
+.nav-tabs-elements .active i {
+  color: red;
+}
+.nav-tabs-elements .active h5, .nav-tabs-elements .active .h5 {
+  color: black !important;
+}
+.nav-tabs-elements .menu-table {
+  width: 100%;
+  height: fit-content;
+}
+.nav-tabs-elements .menu-table .col-6 {
+  width: 40%;
+  height: 20vh;
+  border-bottom: 1px solid #8b3939;
+}
+.nav-tabs-elements .menu-table .col-6 img {
+  border-radius: 50%;
+  width: 15%;
+}
+.nav-tabs-elements .menu-table .col-6 .col-text {
+  font-size: 1vw;
+}
+.nav-tabs-elements .menu-table .col-6 .col-text p {
+  width: 100%;
+}
+.nav-tabs-elements .menu-table .col-6 .price {
+  width: 15%;
+  color: #c42d40;
+  background-color: #bcbcbc;
+}
+
+@media (max-width: 426px) {
+  .nav-tabs-elements .element {
+    font-family: courgette;
+    font-size: 6vw;
+    color: #c42d40;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-radius: 0;
+    background-color: white;
+    width: 20vw;
+    margin-bottom: 5vh !important;
+  }
+  .nav-tabs-elements .element h6, .nav-tabs-elements .element .h6 {
+    font-size: 3vw !important;
+  }
+  .nav-tabs-elements .active {
+    background-color: white !important;
+    border-right: 5px solid #c42d40;
+  }
+  .nav-tabs-elements .active i {
+    color: #c42d40;
+  }
+  .nav-tabs-elements .active h5, .nav-tabs-elements .active .h5 {
+    color: black !important;
+  }
+  .nav-tabs-elements .menu-table {
+    width: 100%;
+    height: fit-content;
+  }
+  .nav-tabs-elements .menu-table .col-6 {
+    width: 100%;
+    height: 15vh;
+    border-bottom: 1px solid #c42d40;
+  }
+  .nav-tabs-elements .menu-table .col-6 h3, .nav-tabs-elements .menu-table .col-6 .h3 {
+    font-size: 13px;
+  }
+  .nav-tabs-elements .menu-table .col-6 p {
+    margin-top: 0 !important;
+  }
+  .nav-tabs-elements .menu-table .col-6 img {
+    border-radius: 50%;
+    width: 15%;
+  }
+  .nav-tabs-elements .menu-table .col-6 .col-text {
+    width: 50%;
+    font-size: 10px;
+  }
+  .nav-tabs-elements .menu-table .col-6 .price {
+    width: 10%;
+    color: #c42d40;
+    background-color: #c4b4b4;
+    font-size: 16px;
+    margin-right: 3vw;
+  }
+}
 .section3 {
   background-image: url(../img/team_background.jpg);
   height: auto;
