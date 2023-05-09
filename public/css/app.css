@@ -12240,7 +12240,7 @@ body {
   }
   .nav-tabs-elements .active {
     background-color: white !important;
-    border-right: 5px solid #c42d40;
+    border-right: 5px solid gray;
   }
   .nav-tabs-elements .active i {
     color: #c42d40;
